@@ -1,0 +1,14 @@
+{
+  "name": "nubis-nubis_discovery",
+  "version": "0.0.1",
+  "author": "nubis",
+  "summary": "Nubis Puppet Module for Service Discovery",
+  "license": "MPL-2.0",
+  "source": "https://github.com/Nubisproject/nubis-puppet-discovery",
+  "project_page": "https://github.com/Nubisproject/nubis-puppet-discovery",
+  "issues_url": "https://github.com/Nubisproject/nubis-puppet-discovery/issues",
+  "dependencies": [
+    {"name":"puppetlabs-stdlib","version_requirement":">= 1.0.0"}
+  ]
+}
+
