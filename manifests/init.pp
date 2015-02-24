@@ -36,6 +36,24 @@
 # Copyright 2015 Your name here, unless otherwise noted.
 #
 class nubis_discovery {
+}
 
+define nubis::discovery(
+  $port,
+  $check,
+  $interval,
+  $tags = [],
+) {
 
+  if $tags {
+    validate_array($tags)
+  }
+
+  $tags_flat = join($tags, ",")
+
+  file { "/etc/consul/svc-$name.json":
+    ensure => present,
+    owner => "root",
+    content => template("nubis_discovery/service.json.erb")
+  }
 }
