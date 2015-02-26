@@ -3,11 +3,9 @@
     "name": "<%= @name  %>",
     "tags": <%= @tags.to_json %>,
     "port": <%= @port %>,
-    "checks": [
-      {
-        "script": "<%= @check %>",
-        "interval": "<%= @interval %>"
-      }
-    ]
+    "check": {
+      "script": "<%= @check %>",
+      "interval": "<%= @interval %>"
+    }
   }
 }
