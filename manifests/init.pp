@@ -57,3 +57,15 @@ define nubis::discovery(
     content => template("nubis_discovery/service.json.erb")
   }
 }
+
+define nubis::check(
+  $check,
+  $interval,
+) {
+
+  file { "/etc/consul/chk-$name.json":
+    ensure => present,
+    owner => "root",
+    content => template("nubis_discovery/check.json.erb")
+  }
+}
