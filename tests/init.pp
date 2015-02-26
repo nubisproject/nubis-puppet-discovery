@@ -12,14 +12,14 @@
 
 include nubis_discovery
 
-nubis::discovery { 'test':
+nubis::discovery::service { 'test':
   tags => [ 'production','apache' ],
   port => 80,
   check => "wget http://localhost:80",
   interval => "30s",
 }
 
-nubis::check { 'ping':
+nubis::discovery::check { 'ping':
   check => "ping -c1 google.com",
   interval => "10s",
 }
