@@ -38,7 +38,7 @@
 class nubis_discovery {
 }
 
-define nubis::discovery(
+define nubis::discovery::service(
   $port,
   $check,
   $interval,
@@ -58,7 +58,7 @@ define nubis::discovery(
   }
 }
 
-define nubis::check(
+define nubis::discovery::check(
   $check,
   $interval,
 ) {
