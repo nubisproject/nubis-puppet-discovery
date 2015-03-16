@@ -39,9 +39,9 @@ class nubis_discovery {
 }
 
 define nubis::discovery::service(
-  $port,
   $check,
   $interval,
+  $port = undef,
   $tags = [],
 ) {
 
