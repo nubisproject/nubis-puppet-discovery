@@ -2,7 +2,9 @@
   "service": {
     "name": "<%= @name  %>",
     "tags": <%= @tags.to_json %>,
+<% if @port %>
     "port": <%= @port %>,
+<% end %>
     "check": {
       "script": "<%= @check %>",
       "interval": "<%= @interval %>"
