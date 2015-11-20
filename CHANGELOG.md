@@ -1,18 +1,29 @@
 # Change Log
 
+## [v1.0.1](https://github.com/nubisproject/nubis-puppet-discovery/tree/v1.0.1) (2015-11-20)
+[Full Changelog](https://github.com/nubisproject/nubis-puppet-discovery/compare/v0.9.0...v1.0.1)
+
+**Closed issues:**
+
+- Tag  release [\#10](https://github.com/nubisproject/nubis-puppet-discovery/issues/10)
+- Tag release for puppet module [\#9](https://github.com/nubisproject/nubis-puppet-discovery/issues/9)
+
 ## [v0.9.0](https://github.com/nubisproject/nubis-puppet-discovery/tree/v0.9.0) (2015-07-22)
+[Full Changelog](https://github.com/nubisproject/nubis-puppet-discovery/compare/v1.0.0...v0.9.0)
+
+## [v1.0.0](https://github.com/nubisproject/nubis-puppet-discovery/tree/v1.0.0) (2015-07-22)
+**Closed issues:**
+
+- Tag v1.0.0 release [\#8](https://github.com/nubisproject/nubis-puppet-discovery/issues/8)
 
 **Merged pull requests:**
 
-- port should be optionnal [\#5](https://github.com/Nubisproject/nubis-puppet-discovery/pull/5) ([gozer](https://github.com/gozer))
-
-- For consistancy rename to nubis::discovery::check and nubis::discovery::service [\#4](https://github.com/Nubisproject/nubis-puppet-discovery/pull/4) ([gozer](https://github.com/gozer))
-
-- Add missing template [\#3](https://github.com/Nubisproject/nubis-puppet-discovery/pull/3) ([gozer](https://github.com/gozer))
-
-- And fix for consul 0.4.x [\#2](https://github.com/Nubisproject/nubis-puppet-discovery/pull/2) ([gozer](https://github.com/gozer))
-
-- Initial working state [\#1](https://github.com/Nubisproject/nubis-puppet-discovery/pull/1) ([gozer](https://github.com/gozer))
+- Updating changelog for v0.9.0 release [\#6](https://github.com/nubisproject/nubis-puppet-discovery/pull/6) ([gozer](https://github.com/gozer))
+- port should be optionnal [\#5](https://github.com/nubisproject/nubis-puppet-discovery/pull/5) ([gozer](https://github.com/gozer))
+- For consistancy rename to nubis::discovery::check and nubis::discovery::service [\#4](https://github.com/nubisproject/nubis-puppet-discovery/pull/4) ([gozer](https://github.com/gozer))
+- Add missing template [\#3](https://github.com/nubisproject/nubis-puppet-discovery/pull/3) ([gozer](https://github.com/gozer))
+- And fix for consul 0.4.x [\#2](https://github.com/nubisproject/nubis-puppet-discovery/pull/2) ([gozer](https://github.com/gozer))
+- Initial working state [\#1](https://github.com/nubisproject/nubis-puppet-discovery/pull/1) ([gozer](https://github.com/gozer))
 
 
 
