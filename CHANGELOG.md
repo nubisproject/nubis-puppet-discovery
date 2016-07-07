@@ -7,6 +7,11 @@
 
 - Tag v1.0.1 release [\#11](https://github.com/nubisproject/nubis-puppet-discovery/issues/11)
 - Tag v1.1.0 release [\#7](https://github.com/nubisproject/nubis-puppet-discovery/issues/7)
+- Tag v1.1.0 release [\#13](https://github.com/nubisproject/nubis-puppet-discovery/issues/13)
+
+**Merged pull requests:**
+
+- Update CHANGELOG for v1.1.0 release [\#14](https://github.com/nubisproject/nubis-puppet-discovery/pull/14) ([tinnightcap](https://github.com/tinnightcap))
 
 ## [v1.0.1](https://github.com/nubisproject/nubis-puppet-discovery/tree/v1.0.1) (2015-11-20)
 [Full Changelog](https://github.com/nubisproject/nubis-puppet-discovery/compare/v1.0.0...v1.0.1)
