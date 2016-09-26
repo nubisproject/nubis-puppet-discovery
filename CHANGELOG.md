@@ -1,5 +1,28 @@
 # Change Log
 
+## [v1.2.2](https://github.com/nubisproject/nubis-puppet-discovery/tree/v1.2.2) (2016-09-26)
+[Full Changelog](https://github.com/nubisproject/nubis-puppet-discovery/compare/v1.2.1...v1.2.2)
+
+**Closed issues:**
+
+- Set deployed project as a tag for a service by default [\#20](https://github.com/nubisproject/nubis-puppet-discovery/issues/20)
+- Tag v1.2.3 release [\#19](https://github.com/nubisproject/nubis-puppet-discovery/issues/19)
+
+**Merged pull requests:**
+
+- Make sure %%PROJECT%% is always set in a service's tags [\#22](https://github.com/nubisproject/nubis-puppet-discovery/pull/22) ([gozer](https://github.com/gozer))
+
+## [v1.2.1](https://github.com/nubisproject/nubis-puppet-discovery/tree/v1.2.1) (2016-07-30)
+[Full Changelog](https://github.com/nubisproject/nubis-puppet-discovery/compare/v1.2.0...v1.2.1)
+
+**Closed issues:**
+
+- Tag v1.2.1 release [\#17](https://github.com/nubisproject/nubis-puppet-discovery/issues/17)
+
+**Merged pull requests:**
+
+- Update CHANGELOG for v1.2.1 release [\#18](https://github.com/nubisproject/nubis-puppet-discovery/pull/18) ([tinnightcap](https://github.com/tinnightcap))
+
 ## [v1.2.0](https://github.com/nubisproject/nubis-puppet-discovery/tree/v1.2.0) (2016-07-07)
 [Full Changelog](https://github.com/nubisproject/nubis-puppet-discovery/compare/v1.1.0...v1.2.0)
 
@@ -25,7 +48,7 @@
 - Update CHANGELOG for v1.1.0 release [\#14](https://github.com/nubisproject/nubis-puppet-discovery/pull/14) ([tinnightcap](https://github.com/tinnightcap))
 
 ## [v1.0.1](https://github.com/nubisproject/nubis-puppet-discovery/tree/v1.0.1) (2015-11-20)
-[Full Changelog](https://github.com/nubisproject/nubis-puppet-discovery/compare/v1.0.0...v1.0.1)
+[Full Changelog](https://github.com/nubisproject/nubis-puppet-discovery/compare/v0.9.0...v1.0.1)
 
 **Closed issues:**
 
@@ -36,14 +59,14 @@
 
 - Update CHANGELOG for v1.0.1 release [\#12](https://github.com/nubisproject/nubis-puppet-discovery/pull/12) ([tinnightcap](https://github.com/tinnightcap))
 
-## [v1.0.0](https://github.com/nubisproject/nubis-puppet-discovery/tree/v1.0.0) (2015-07-22)
-[Full Changelog](https://github.com/nubisproject/nubis-puppet-discovery/compare/v0.9.0...v1.0.0)
+## [v0.9.0](https://github.com/nubisproject/nubis-puppet-discovery/tree/v0.9.0) (2015-07-22)
+[Full Changelog](https://github.com/nubisproject/nubis-puppet-discovery/compare/v1.0.0...v0.9.0)
 
+## [v1.0.0](https://github.com/nubisproject/nubis-puppet-discovery/tree/v1.0.0) (2015-07-22)
 **Closed issues:**
 
 - Tag v1.0.0 release [\#8](https://github.com/nubisproject/nubis-puppet-discovery/issues/8)
 
-## [v0.9.0](https://github.com/nubisproject/nubis-puppet-discovery/tree/v0.9.0) (2015-07-22)
 **Merged pull requests:**
 
 - Updating changelog for v0.9.0 release [\#6](https://github.com/nubisproject/nubis-puppet-discovery/pull/6) ([gozer](https://github.com/gozer))
