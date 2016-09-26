@@ -1,7 +1,7 @@
 {
   "service": {
     "name": "<%= @name  %>",
-    "tags": <%= @tags.to_json %>,
+    "tags": <%= @all_tags.to_json %>,
 <% if @port %>
     "port": <%= @port %>,
 <% end %>
