@@ -49,7 +49,7 @@ define nubis::discovery::service(
     validate_array($tags)
   }
 
-  $tags = unique(concat($tags, "%%PROJECT%%"))
+  $all_tags = unique(concat($tags, "%%PROJECT%%"))
 
   file { "/etc/consul/svc-$name.json":
     ensure => present,
