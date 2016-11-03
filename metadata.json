@@ -1,6 +1,6 @@
 {
   "name": "nubis-nubis_discovery",
-  "version": "0.0.1",
+  "version": "v1.3.0",
   "author": "nubis",
   "summary": "Nubis Puppet Module for Service Discovery",
   "license": "MPL-2.0",
