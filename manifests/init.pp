@@ -55,7 +55,7 @@ define nubis::discovery::service(
   }
 
   if ($tcp and $check) {
-    fail("Only one of tcp or check can be set"
+    fail("Only one of tcp or check can be set")
   }
 
   if ($port) {
