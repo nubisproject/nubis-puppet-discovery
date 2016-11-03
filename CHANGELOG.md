@@ -1,5 +1,18 @@
 # Change Log
 
+## [v1.3.0](https://github.com/nubisproject/nubis-puppet-discovery/tree/v1.3.0) (2016-11-03)
+[Full Changelog](https://github.com/nubisproject/nubis-puppet-discovery/compare/v1.2.2...v1.3.0)
+
+**Closed issues:**
+
+- Add support for HTTP checks [\#24](https://github.com/nubisproject/nubis-puppet-discovery/issues/24)
+- Add support for TCP checks [\#23](https://github.com/nubisproject/nubis-puppet-discovery/issues/23)
+
+**Merged pull requests:**
+
+- Add support for tcp checks [\#26](https://github.com/nubisproject/nubis-puppet-discovery/pull/26) ([gozer](https://github.com/gozer))
+- Add http check support [\#25](https://github.com/nubisproject/nubis-puppet-discovery/pull/25) ([gozer](https://github.com/gozer))
+
 ## [v1.2.2](https://github.com/nubisproject/nubis-puppet-discovery/tree/v1.2.2) (2016-09-26)
 [Full Changelog](https://github.com/nubisproject/nubis-puppet-discovery/compare/v1.2.1...v1.2.2)
 
