@@ -39,14 +39,27 @@ class nubis_discovery {
 }
 
 define nubis::discovery::service(
-  $check,
-  $interval,
+  $check = undef,
+  $tcp = undef,
+  $interval = "60s",
   $port = undef,
   $tags = [],
 ) {
 
   if $tags {
     validate_array($tags)
+  }
+
+  if (!$tcp and !$check) {
+    fail("One of tcp or check must be set")
+  }
+
+  if ($tcp and $check) {
+    fail("Only one of tcp or check can be set"
+  }
+
+  if ($port) {
+    validate_numeric($port)
   }
 
   $all_tags = unique(concat($tags, "%%PROJECT%%"))

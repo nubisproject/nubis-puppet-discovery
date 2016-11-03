@@ -6,7 +6,13 @@
     "port": <%= @port %>,
 <% end %>
     "check": {
+      "name": "<%= name %>",
+<% if @check %>
       "script": "<%= @check %>",
+<% end %>
+<% if @tcp %>
+      "tcp": "<%= @tcp %>",
+<% end %>
       "interval": "<%= @interval %>"
     }
   }
