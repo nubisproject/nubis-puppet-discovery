@@ -13,6 +13,9 @@
 <% if @tcp %>
       "tcp": "<%= @tcp %>",
 <% end %>
+<% if @http %>
+      "http": "<%= @http %>",
+<% end %>
       "interval": "<%= @interval %>"
     }
   }

@@ -41,6 +41,7 @@ class nubis_discovery {
 define nubis::discovery::service(
   $check = undef,
   $tcp = undef,
+  $http = undef,
   $interval = "60s",
   $port = undef,
   $tags = [],
@@ -50,12 +51,12 @@ define nubis::discovery::service(
     validate_array($tags)
   }
 
-  if (!$tcp and !$check) {
-    fail("One of tcp or check must be set")
+  if (!$tcp and !$check and !$http) {
+    fail("One of tcp,check,http must be set")
   }
 
-  if ($tcp and $check) {
-    fail("Only one of tcp or check can be set")
+  if (($tcp and $check) or ($tcp and $http) or ($check and $http))  {
+    fail("Only one of tcp,check,http can be set")
   }
 
   if ($port) {
