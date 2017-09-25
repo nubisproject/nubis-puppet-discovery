@@ -63,7 +63,7 @@ define nubis::discovery::service(
     validate_numeric($port)
   }
 
-  $all_tags = unique(concat($tags, "%%PROJECT%%"))
+  $all_tags = unique(concat($tags, "%%PROJECT%%","%%ENVIRONMENT%%"))
 
   file { "/etc/consul/svc-$name.json":
     ensure => present,
