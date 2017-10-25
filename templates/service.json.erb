@@ -11,7 +11,7 @@
       "script": "<%= @check %>",
 <% end %>
 <% if @tcp %>
-      "tcp": "<%= @tcp %>",
+      "tcp": "<%= @address %>:<%= @tcp %>",
 <% end %>
 <% if @http %>
       "http": "<%= @http %>",
