@@ -43,6 +43,7 @@ define nubis::discovery::service(
   $tcp = undef,
   $http = undef,
   $interval = "60s",
+  $address = 'localhost',
   $port = undef,
   $tags = [],
 ) {
