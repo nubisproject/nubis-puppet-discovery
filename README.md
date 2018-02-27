@@ -1,6 +1,6 @@
 # nubis_discovery
 
-#### Table of Contents
+## Table of Contents
 
 1. [Overview](#overview)
 2. [Module Description - What the module does and why it is useful](#module-description)
@@ -10,8 +10,8 @@
     * [Beginning with nubis_discovery](#beginning-with-nubis_discovery)
 4. [Usage - Configuration options and additional functionality](#usage)
 5. [Reference - An under-the-hood peek at what the module is doing and how](#reference)
-5. [Limitations - OS compatibility, etc.](#limitations)
-6. [Development - Guide for contributing to the module](#development)
+6. [Limitations - OS compatibility, etc.](#limitations)
+7. [Development - Guide for contributing to the module](#development)
 
 ## Overview
 
@@ -49,7 +49,7 @@ The very basic steps needed for a user to get the module up and running.
 
 If your most recent release breaks compatibility or requires particular steps
 for upgrading, you may wish to include an additional section here: Upgrading
-(For an example, see http://forge.puppetlabs.com/puppetlabs/firewall).
+(For an example, see [this](http://forge.puppetlabs.com/puppetlabs/firewall)).
 
 ## Usage
 
@@ -76,4 +76,4 @@ know what the ground rules for contributing are.
 
 If you aren't using changelog, put your release notes here (though you should
 consider using changelog). You may also add any additional sections you feel are
-necessary or important to include here. Please use the `## ` header.
+necessary or important to include here. Please use the `##` header.
